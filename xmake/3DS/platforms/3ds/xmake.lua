@@ -1,7 +1,7 @@
 platform("3ds")
     set_os("3ds")
     set_hosts("macosx", "linux", "windows", "bsd")
-    set_archs("armv6k")
+    set_archs("armv6k","3ds")
 
     set_formats("static", "lib$(name).a")
     set_formats("object", "$(name).o")
